@@ -3,7 +3,7 @@ import React from 'react';
 function useLocalStorage(itemName, initialValue){                                 // Definimos un 'Custom Hook' para acceder a los datos guardados en LocalStorage
   const [sincronizedItem, setSincronizedItem] = React.useState(true);
   const [item, setItem] = React.useState(initialValue);
-  const [loading, setLoading] = React.useState(true);                             // Creamos un State "artificial" de 'loading' con valor inicial a 'true' para que muestre un 'Loading Skeleton' mientras obtenemos los valores de los ToDos del LocalStorage
+  const [loading, setLoading] = React.useState(true);                             // Creamos un State "artificial" de 'loading' con valor inicial a 'true' para que muestre un 'Loading Skeleton' mientras obtenemos los valores de los ToDos del LocalStorage.
   const [error, setError] = React.useState(false);
   
   React.useEffect(() => {                                                         // El 'useEffect()' hook recibe una funcion y un Array, si es un Array vacio solo se ejecuta una vez
