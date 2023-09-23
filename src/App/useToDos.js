@@ -78,8 +78,6 @@ function useToDos() {                                                           
     openModal,
     setOpenModal,
     validatingToDo,
-    validStatus,
-    setValidStatus,
     newToDoValue,
     setNewToDoValue,
     sincronizedToDos
