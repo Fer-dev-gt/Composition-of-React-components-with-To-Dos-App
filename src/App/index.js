@@ -14,7 +14,7 @@ import { ToDosError } from '../ToDosError';
 import { ToDosLoading } from '../ToDoLoading';
 import { useToDos } from './useToDos';
 
-function App() {                                                                // Esto es un Componente de React, por convención se escriben con mayuscula
+function App() {                                                                // Esto es un Componente de React, por convención se escriben con mayuscula.
   const {
     loading, 
     error,
