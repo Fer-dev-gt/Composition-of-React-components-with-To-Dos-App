@@ -68,16 +68,6 @@ function App() {                                                                
           <ToDosLoading />
           <ToDosLoading />
         </> }
-
-        // render={toDo => (                                                     // Creamos la propiedad 'render' que se engargara de Reenderizar cada Componente que tiene adentro segun el Array con el método map que retorna y muestra los ToDos que fueron buscados en el buscador, si el buscador esta vacío muestra todo los ToDos guardados
-        //   <ToDoItem 
-        //     key={ toDo.text } 
-        //     text={ toDo.text }                                                // Muestra el texto del ToDo correspondiente
-        //     completed={ toDo.completed }                                   
-        //     onComplete={ () => completeToDo(toDo.text) }                      // Guardamos la función que ejecutará el completado de un ToDo, recibe como parámetro el texto del ToDo para poder ubicarlo en el Array de Object
-        //     onDelete={ () => deleteToDo(toDo.text) }                          // Guardamos la función que ejecutará la elinación de un Todo, recibe como parámetro el texto del ToDo para poder ubicarlo en el Array de Object
-        //   />
-        // )}
       >
       {toDo => (                                                     
           <ToDoItem 
