@@ -2,9 +2,10 @@ import React from 'react';
 import './ToDoSearch.css';
 import searchIcon from "../Assets/search-icon.svg";
 
-function ToDoSearch({ searchValue, setSearchValue, loading }) {                                  // Antes estos States y setStates los obteniamos de un React Context ahora los pasamos como props gracias a que aplicamos la Composición de Componentes
+function ToDoSearch({ searchValue, setSearchValue, loading, totalToDos }) {             // Antes estos States y setStates los obteniamos de un React Context ahora los pasamos como props gracias a que aplicamos la Composición de Componentes
 
   return(
+    !!totalToDos > 0 &&                                                              // Solo renderizamos el buscador si tenemos ToDos
     <div className='search-container'>
       <input 
         placeholder='Search your To Do'

@@ -47,6 +47,7 @@ function App() {                                                                
           searchValue={searchValue}
           setSearchValue={setSearchValue}
           loading={loading}
+          totalToDos={totalToDos}
         />  
       </ToDoHeader>        
 
@@ -58,7 +59,7 @@ function App() {                                                                
         totalToDos={totalToDos}
 
         onError={() => <ToDosError />}                                        // Ya no haremos esta lógica acá como una Render Function, en su lugar vamos a declarar una Render Prop para que esta función se ejecute dentro del Componente al que se envia
-        onEmptyToDos={() => <EmptyToDos />}                                   
+        onEmptyToDos={() => <EmptyToDos setOpenModal={setOpenModal} />}                                   
         onEmptySearchResults={(searchText) => 
           <p>No hay resultados para: {searchText}</p>
         }
@@ -82,6 +83,7 @@ function App() {                                                                
 
       <CreateToDoButton
         setOpenModal={setOpenModal}
+        totalToDos={totalToDos}
       />
 
       {openModal && (                                                         // Si el valor de 'openModal' es true renderizamos el componente 'Modal' que tiene adentro el 'ToDoForm' para agregar un nuevo ToDo
@@ -98,8 +100,9 @@ function App() {                                                                
 
       <ChangeAlertWithStorageListener 
         sincronize={sincronizedToDos}
+        totalToDos={totalToDos}
       />
-      <Footer />
+      <Footer totalToDos={totalToDos}/>
     </>
   );
 }

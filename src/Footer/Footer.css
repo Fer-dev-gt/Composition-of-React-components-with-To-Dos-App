@@ -25,4 +25,8 @@
   .footer a {
     color: rgb(141, 218, 25);
   }
+  .footer-noToDos {
+    position: absolute;
+    bottom: 12px;
+  }
 }

@@ -2,8 +2,9 @@ import './CreateToDoButton.css';
 import worm from './worm.png';
 import cube from './cube.png';
 
-function CreateToDoButton({ setOpenModal }) {
+function CreateToDoButton({ setOpenModal, totalToDos }) {
   return(    
+    !!totalToDos && 
     <>                                           
     <button className='CreateToDoButton'
       onClick={
