@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/To-Dos-Goals-Tracker/static/css/main.23e707a5.css",
+    "main.js": "/To-Dos-Goals-Tracker/static/js/main.973362c3.js",
+    "static/media/cube.png": "/To-Dos-Goals-Tracker/static/media/cube.ebe16647cef454ef8868.png",
+    "static/media/worm.png": "/To-Dos-Goals-Tracker/static/media/worm.645b68dcfbc9954fcff8.png",
+    "static/media/star.png": "/To-Dos-Goals-Tracker/static/media/star.4df7a83e46931685410c.png",
+    "static/media/added.mp3": "/To-Dos-Goals-Tracker/static/media/added.ecb78832df07d0d285c4.mp3",
+    "static/media/task_completed.mp3": "/To-Dos-Goals-Tracker/static/media/task_completed.d25f4ef62661cb1ba17d.mp3",
+    "static/media/task_deleted.mp3": "/To-Dos-Goals-Tracker/static/media/task_deleted.c211769db2218df6df52.mp3",
+    "index.html": "/To-Dos-Goals-Tracker/index.html",
+    "static/media/search-icon.svg": "/To-Dos-Goals-Tracker/static/media/search-icon.e245a22c851131acaf4f364fe4add6a5.svg",
+    "main.23e707a5.css.map": "/To-Dos-Goals-Tracker/static/css/main.23e707a5.css.map",
+    "main.973362c3.js.map": "/To-Dos-Goals-Tracker/static/js/main.973362c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23e707a5.css",
+    "static/js/main.973362c3.js"
+  ]
+}
