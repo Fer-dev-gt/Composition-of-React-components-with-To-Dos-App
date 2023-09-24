@@ -18,7 +18,8 @@ Try it yourself! https://fer-dev-gt.github.io/Composition-of-React-components-wi
 - [React Documentation](#Getting-Started-with-Create-React-App)
 
 ## Demo and Feautures
-
+<p>Here you can have a snapshot of how I placed my Component and state composition</p>
+<img width="657" alt="Screenshot 2023-09-24 at 16 19 06" src="https://github.com/Fer-dev-gt/Composition-of-React-components-with-To-Dos-App/assets/119085740/984cfb81-bda9-47df-81ad-b2ad6a322cc3">
 
 ## Installation Steps:
 If you want to make changes to the source code you just need to:
